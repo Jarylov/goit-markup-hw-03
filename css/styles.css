@@ -38,8 +38,10 @@ button {
 
 .link {
     text-decoration: none;
+    color: currentColor;
 }
 
+/* reset end */
 
 body {
 font-family: 'Roboto',
@@ -56,6 +58,9 @@ color: var(--primary-txt-cl);
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
     
 }
 
@@ -105,6 +110,7 @@ color: var(--secondary-bg-cl);
 height: 600px;
 background: #2E2F42;
 padding-top: 188px;
+padding-bottom: 188px;
 }
 .hero-title {
     font-weight: 700;
@@ -118,6 +124,8 @@ padding-top: 188px;
 .hero-btn {
 width: 169px;
 height: 56px;
+margin-right: 495px;
+margin-left: 495px;
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -147,6 +155,7 @@ font-size: 36px;
 line-height: calc(40 / 36);
 color: var(--secondary-txt-cl);
 text-transform: capitalize;
+text-align: center;
 }
 
 .title-three {
