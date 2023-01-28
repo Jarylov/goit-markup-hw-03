@@ -143,6 +143,11 @@ color: var(--accent-txt-cl);
 background-color: var(--hover-bt);
 }
 
+.clause {
+    width: 264px;
+    height: 104px;
+}
+
 
 
 /* ======================= */
