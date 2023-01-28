@@ -149,7 +149,8 @@ background-color: var(--hover-bt);
 }
 
 .section-two {
-    height: 412px;
+    height: 532px;
+   
 }
 
 h2 {
@@ -159,6 +160,7 @@ h2 {
 .section-three {
     height: 732px;
     padding-top: 120px;
+    
 }
 
 .clause {
@@ -220,7 +222,7 @@ height: 310px;
 }
 .logo-footer {
     color: #F4F4FD;
-    padding-top: 100px;
+
    
 }
 
