@@ -147,6 +147,20 @@ background-color: var(--hover-bt);
     padding-top: 120px;
     padding-bottom: 120pt;
 }
+
+.section-two {
+    height: 412px;
+}
+
+h2 {
+    padding-bottom: 72px;
+}
+
+.section-three {
+    height: 732px;
+    padding-top: 120px;
+}
+
 .clause {
     width: 264px;
     height: 104px;
@@ -196,15 +210,24 @@ border-radius: 0px 0px 4px 4px;
 
 /* footer */
 
+.container-footer {
+    height: 310px;
+}
+
 .footer {
 background: #2E2F42;
+height: 310px;
 }
 .logo-footer {
     color: #F4F4FD;
+    padding-top: 100px;
+   
 }
 
 .text-footer {
     color: #E7E9FC;
+    width: 264px;
+    height: 72px;
 }
 
 /* filter */
