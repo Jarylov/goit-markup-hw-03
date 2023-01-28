@@ -232,11 +232,15 @@ font-weight: 500;
 font-size: 20px;
 line-height: calc(24 / 20);
 color: var(--secondary-txt-cl);
+padding-top: 32px;
+padding-left: 16px;
+padding-bottom: 8px;
 }
 
 .text {
 color: var(--primary-txt-cl);
 }
+
 .team {
 background: var(--light-bg)
 }
@@ -247,6 +251,13 @@ height: 380px;
 background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-kontent {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 /* footer */
