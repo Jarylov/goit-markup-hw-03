@@ -143,6 +143,10 @@ color: var(--accent-txt-cl);
 background-color: var(--hover-bt);
 }
 
+.section-one {
+    padding-top: 120px;
+    padding-bottom: 120pt;
+}
 .clause {
     width: 264px;
     height: 104px;
@@ -150,6 +154,7 @@ background-color: var(--hover-bt);
 
 .flexbox-container {
     display: flex;
+    justify-content: space-between;
 }
 
 
