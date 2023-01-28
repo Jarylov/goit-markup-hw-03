@@ -194,6 +194,10 @@ h2 {
     justify-content: space-between;
 }
 
+.flexbox-container-footer {
+    height: 310px;
+}
+
 
 
 /* ======================= */
