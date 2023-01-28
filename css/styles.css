@@ -168,6 +168,27 @@ h2 {
     height: 104px;
 }
 
+.flexbox-container-header {
+    height: 72px;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.flexbox-container-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 261px;
+    margin-left: 190px;
+   }
+
+.flexbox-container-adr {
+    display: flex;
+    justify-content: space-between;
+    width: 344px;
+    margin-left: 331px;
+}
+
 .flexbox-container {
     display: flex;
     justify-content: space-between;
