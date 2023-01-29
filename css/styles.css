@@ -234,6 +234,7 @@ padding-bottom: 120px;
         padding: 32px 0px 32px 16px;
         gap: 8px;
         border: 1px solid #E7E9FC;
+        border-top: none;
 }
 
 .title-two {
