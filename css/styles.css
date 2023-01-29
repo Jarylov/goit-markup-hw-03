@@ -314,6 +314,7 @@ background: #2E2F42;
     border-radius: 4px;
     cursor: pointer;
     height: 48px;
+    padding: 12px 24px;
 }
 
 .filter-btn:hover,
