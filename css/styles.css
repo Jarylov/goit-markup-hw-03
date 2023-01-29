@@ -223,6 +223,7 @@ margin-left: auto;
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
+padding-bottom: 120px;
 }
 
 .card-project-content {
