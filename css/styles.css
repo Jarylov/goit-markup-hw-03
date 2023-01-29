@@ -64,7 +64,9 @@ color: var(--primary-txt-cl);
     
 }
 
-
+.nav-header {
+    display: flex;
+}
 
 .nav {
 font-style: normal;
@@ -179,7 +181,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     width: 261px;
-    margin-left: 190px;
+    margin-left: 76px;
    }
 
 .flexbox-container-adr {
