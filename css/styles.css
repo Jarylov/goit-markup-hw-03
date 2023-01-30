@@ -58,10 +58,6 @@ color: var(--primary-txt-cl);
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    outline: 2px solid red;
-    outline-offset: -2px;
-    
 }
 
 .nav-header {
@@ -74,6 +70,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: calc(24 / 16);
 color: #2E2F42;
+}
+
+.address {
+    margin-left: auto;
 }
 
 .contact {
@@ -162,7 +162,7 @@ h2 {
 .section-three {
     height: 732px;
     padding-top: 120px;
-    
+    margin-bottom: 8px;
 }
 
 .clause {
@@ -170,8 +170,8 @@ h2 {
     height: 104px;
 }
 
-.flexbox-container-header {
-    height: 72px;
+.container-header {
+    
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -180,15 +180,15 @@ h2 {
 .flexbox-container-nav {
     display: flex;
     justify-content: space-between;
-    width: 261px;
+    gap: 40px;
     margin-left: 76px;
    }
 
 .flexbox-container-adr {
     display: flex;
     justify-content: space-between;
-    width: 344px;
-    margin-left: 331px;
+    gap: 40px;
+    
 }
 
 .flexbox-container {
@@ -197,8 +197,8 @@ h2 {
 }
 
 .flexbox-container-footer {
-    height: 310px;
-    padding-top: 100px;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 
 
@@ -211,8 +211,7 @@ h2 {
 .flexbox-container-filter {
 display: flex;
 justify-content: space-between;
-padding-top: 96px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 width: 586px;
 
 margin-right: auto;
@@ -222,19 +221,14 @@ margin-left: auto;
 .flexbox-container-card {
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
-padding-bottom: 120px;
+column-gap: 24px;
+row-gap: 48px;
 }
 
 .card-project-content {
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 32px 16px ;
-        gap: 8px;
-        border: 1px solid #E7E9FC;
-        border-top: none;
+    padding: 32px 16px ;
+    border: 1px solid #E7E9FC;
+    border-top: none;
        
 }
 
@@ -251,7 +245,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: calc(24 / 20);
 color: var(--secondary-txt-cl);
-padding-bottom: 0px;
+padding-bottom: 8px;
 }
 
 .text {
@@ -264,7 +258,7 @@ background: var(--light-bg)
 
 .card {
 width: 264px;
-height: 380px;
+
 background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
@@ -272,16 +266,15 @@ border-radius: 0px 0px 4px 4px;
 
 .team-card-kontent {
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+    gap: 8px;
 }
 
 /* footer */
 
-.container-footer {
-    height: 310px;
-}
 
 .footer {
 background: #2E2F42;
@@ -323,4 +316,9 @@ background: #2E2F42;
 .filter-btn:focus {
     background: var(--hover-bt);
     color: var(--accent-txt-cl);
+}
+
+.section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
