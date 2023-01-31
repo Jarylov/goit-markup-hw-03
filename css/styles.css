@@ -158,6 +158,13 @@ h2 {
     padding-bottom: 72px;
 }
 
+.title-one  {
+    font-size: 20px;
+    line-height: calc(24/20);
+    margin-bottom: 8px;
+    
+}
+
 .section-three {
     padding-top: 120px;
     padding-bottom: 120px;
