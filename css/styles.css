@@ -218,7 +218,14 @@ h2 {
 }
 
 
-
+.team-card-kontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+    gap: 8px;
+}
 
 
 .flexbox-container {
@@ -250,6 +257,13 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+}
+
+.card {
+    width: 264px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .card-project-content {
@@ -285,22 +299,9 @@ color: var(--primary-txt-cl);
 background: var(--light-bg)
 }
 
-.card {
-width: 264px;
 
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-}
 
-.team-card-kontent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 32px 16px;
-    gap: 8px;
-}
+
 
 /* footer */
 
