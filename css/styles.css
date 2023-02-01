@@ -142,6 +142,7 @@ background: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
 }
+
 .hero-title {
     font-weight: 700;
         font-size: 56px;
@@ -176,7 +177,7 @@ background-color: var(--hover-bt);
 
 .section-one {
     padding-top: 120px;
-    padding-bottom: 120pt;
+    padding-bottom: 120px;
 }
 
 .title-one {
