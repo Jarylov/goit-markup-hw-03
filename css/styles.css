@@ -43,6 +43,8 @@ button {
 
 /* reset end */
 
+/* BODY */
+
 body {
 font-family: 'Roboto',
 sans-serif;
@@ -58,6 +60,16 @@ color: var(--primary-txt-cl);
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* header */
+
+.container-header {
+
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-header {
@@ -107,7 +119,23 @@ color: var(--secondary-bg-cl);
 .logo-header {color: var(--dark-bg);
 }
 
-/* Hero */
+.flexbox-container-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.flexbox-container-adr {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+
+/* hero section */
+
 .hero {
 height: 600px;
 background: #2E2F42;
@@ -144,27 +172,40 @@ color: var(--accent-txt-cl);
 background-color: var(--hover-bt);
 }
 
+/* section 1 */
+
 .section-one {
     padding-top: 120px;
     padding-bottom: 120pt;
 }
 
+.title-one {
+    font-size: 20px;
+    line-height: calc(24/20);
+    margin-bottom: 8px;
+
+}
+
+/* section 2 */
+
 .section-two {
     height: 532px;
-   
 }
 
 h2 {
     margin-bottom: 72px;
 }
 
-.title-one  {
-    font-size: 20px;
-    line-height: calc(24/20);
-    margin-bottom: 8px;
-    
+.title-two {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    color: var(--secondary-txt-cl);
+    text-transform: capitalize;
+    text-align: center;
 }
 
+
+/* section 3 */
 .section-three {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -176,26 +217,9 @@ h2 {
     height: 104px;
 }
 
-.container-header {
-    
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
-.flexbox-container-nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-left: 76px;
-   }
 
-.flexbox-container-adr {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    
-}
+
 
 .flexbox-container {
     display: flex;
@@ -235,13 +259,7 @@ row-gap: 48px;
        
 }
 
-.title-two {
-font-size: 36px;
-line-height: calc(40 / 36);
-color: var(--secondary-txt-cl);
-text-transform: capitalize;
-text-align: center;
-}
+
 
 .title-three {
 font-weight: 500;
